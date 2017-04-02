@@ -23,7 +23,7 @@ class money_moves(Bank):
 	def deposition(self, deposit):
 		self.account_funds += deposit
 
-edgaras = money_moves("Edgaras", "Swedbank", "Checkings", 100)
+edgaras = money_moves("Edgaras", "BankA", "Checkings", 100)
 edgaras.withdrawal(91)
 print(edgaras)
 
